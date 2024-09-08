@@ -1,0 +1,137 @@
+.home-page{
+    background-color: #fff;
+    height: auto;
+    width: 85vw;
+  
+}
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+.entry-heading{
+    font-size: 2.4rem;
+    color: #465463;
+}
+.heading-2{
+    font-size: 2rem;
+    color: #465463;
+    text-align: center;
+}
+.start-btn{
+    background-color: #B10F14;
+    outline: 0;
+    border: 2px solid transparent;
+    color: #fff;
+    font-weight: 550;
+    font-size: 0.9rem;
+    padding: 0.3rem ;
+    border-radius: 5px 5px ; 
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.start-btn:hover{
+    background-color: #d31f16; 
+}
+.home-right img{
+height: 20rem;
+/* width: 19rem; */
+cursor: pointer
+;
+transition: all 0.5s;
+}
+.home-right img:hover{
+    scale: 1.1;
+}
+.section-2{
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content:center
+
+}
+.card{
+    border: 2px solid #465463;
+    height: 15rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30vw;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 0.5rem 0.5rem;
+    transition: all 0.5s;
+}
+
+.card:hover{
+    background-color: #B10F14;
+    border-color: white;
+}
+.card :hover .icon i {
+    color: #fff;
+    
+}
+.icon i{
+font-size: 2rem;
+color:#B10F14;
+}
+.icon-main-h{
+    font-size: 2rem;
+    
+}
+.card-main-h{
+    color: #465463 ;
+}
+.card-des{
+    font-weight: 500;
+}
+.card:hover .card-main-h,
+.card:hover .card-des,
+.card:hover .icon i {
+  color: white;
+
+}
+.font{
+    font-size: 1.9rem;
+    text-align: center;
+   
+}
+
+@media(max-width: 768px){
+    .home-page{
+        padding: 2rem;
+        width: 90vw;
+    }
+    .start-btn{
+        font-size: 1rem;
+    }
+    .section-2{
+        flex-wrap: wrap;
+    }
+    .card{
+        height: 5rem;
+        width: 5rem;
+        padding: 1rem;
+    }
+}
+.section-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0
+}
+@media (max-width:1108px) {
+.card{
+    
+  height: auto;
+  width: auto;
+  padding: 1rem;
+    
+}
+}

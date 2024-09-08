@@ -1,0 +1,42 @@
+.footer p:hover {
+scale: 1.1;
+}
+.footer p{
+  transition: all 0.7s;
+  cursor: pointer;
+  color: #fff;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10rem;
+  background-color: #465463;
+  position: relative;
+  bottom: 0;
+}
+.footer-left p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+ p :hover{
+  color: #B10F14;
+}
+  
+  .social-icons a:hover {
+    color:#B10F14;
+  }
+  .social-icons a{
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  @media(max-width:768px){
+.footer{
+  height: 11rem;
+}
+  
+  }
+  

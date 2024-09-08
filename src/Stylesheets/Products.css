@@ -1,0 +1,83 @@
+  
+  .products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* max-width: 75rem; Converted max-width to rem */
+  }
+  .load{
+    color: #B10F14;
+    font-weight: 700;
+    animation: pulse 1s infinite alternate;
+  }
+  @keyframes pulse {
+    from {
+      opacity: 0.5; /* Start with slightly transparent */
+      transform: scale(1); /* Initial scale */
+    }
+    to {
+      opacity: 1; /* Fully visible */
+      transform: scale(1.1); /* Scale up slightly */
+    }
+  }
+  .product-card {
+    width: calc(33.33% - 6rem); /* Converted width and margin to rem */
+    margin: 1.25rem;
+    height: auto;
+    padding: 1rem;
+    border: 0.0625rem solid #ddd; /* Converted border width to rem */
+    border-radius: 0.5rem; /* Converted border radius to rem */
+    background-color: #fff;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* Converted box shadow to rem */
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    max-height: 14rem; /* Adjusted max-height to rem */
+    border-radius: 0.5rem; /* Converted border radius to rem */
+  }
+  .addtocart {
+    display: inline-block;
+    margin: 2rem;
+    padding: 0.5rem 0.7rem;
+    background-color : #B10F14; /* Green background */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-color: transparent;
+  }
+  
+  /* Hover effect */
+  .addtocart:hover {
+    background-color:#465463 ; /* Darker green */
+  }
+  .product-details {
+    padding: 0.625rem; /* Converted padding to rem */
+    color:#465463;;
+    font-size: 1rem;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+ 
+  
+  
+  @media (max-width: 48rem) { /* Converted max-width to rem */
+    .product-card {
+      width: calc(50% - 6rem); /* Converted width and margin to rem */
+    }
+  }
+  
+  @media (max-width: 30rem) { /* Converted max-width to rem */
+    .product-card {
+      width: calc(100% - 2.5rem); /* Converted width and margin to rem */
+    }
+  }
+  
+  
